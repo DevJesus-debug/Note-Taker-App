@@ -1,0 +1,177 @@
+
+
+body {
+    margin: 0;
+    color: white;
+   
+    align-items: center;
+    text-shadow: 1px 1px rgb(121, 118, 118);
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(184, 184, 184);
+}
+
+
+.first-page-cont{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+div.front-page {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    justify-content: center;
+    text-align: center;
+    width: 40%;
+    background-color: rgb(87, 151, 255);
+    border-radius: 35px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.second-page-cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.note-area {
+  outline: none;
+  width: 80%;
+  height: 30vh;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  resize: vertical;
+}
+
+.submit {
+    background-color: rgb(93, 90, 90);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center;
+    width: 20%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.notes-link {
+    margin-top: 20px;
+    padding-top: 20px;
+    width: 200px;
+    background-color: rgb(93, 90, 90) ;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+.second-page{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 40%;
+    padding: 30px;
+    background-color: rgb(87, 151, 255);
+    border-radius: 35px;
+    
+}
+
+#notes-list {
+    margin-left: 20px;
+    width: 90%;
+    overflow-y: scroll;
+    
+}
+
+
+#notes-list li{
+    padding-left: 10px;
+    color:white;
+    font-family: sans-serif;
+    background-color: rgb(124, 124, 124);
+    border-bottom: solid 1px rgb(136, 136, 136);
+    padding: 7px 15px;
+
+}
+
+
+h3{
+    color: white;
+    background-color: rgb(93, 90, 90); 
+    padding: 15px 45px; 
+    text-align: center;
+    width: 100px;
+    border-radius: 10px;
+    margin: auto 50px;
+    }
+
+    .second-page p{
+        margin-bottom: 0;
+    }
+
+
+
+@media screen and (max-width:1000px){
+
+   
+    div.front-page {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 32px;
+        justify-content: center;
+        text-align: center;
+        width: 80%;
+        border-radius: 35px;
+        padding: 10px;
+    }
+
+    .submit {
+        margin-top: 10px;
+        width: 50%;
+    }
+
+    .notes-link {
+        margin: 20px;
+        padding-top: 20px;
+    }
+
+    .second-page {
+        width: 90%;
+        height: 90vh;
+        margin-top: 100px;
+    }
+
+    .second-page-cont{
+        padding: 0px 50px;
+        height: 120vh;
+    }
+
+    .note-list{
+        height: 100%%;
+    }
+    .notes-link {
+        margin-top: 20px;
+        padding-top: 20px;
+        width: 150px;
+        font-size: 25px;
+        background-color: rgb(93, 90, 90) ;
+        padding: 10px;
+        border-radius: 5px;
+    
+    }
+}
